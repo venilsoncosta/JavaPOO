@@ -7,6 +7,8 @@ public class DataTeste {
         meuNiver.mes = 8;
         meuNiver.ano = 1991;
 
+        System.out.println(meuNiver.obterDataFormatada());
+
         System.out.println("Venilson nasceu no dia " + meuNiver.dia + " de agosto de " + meuNiver.ano);
     }
 }
